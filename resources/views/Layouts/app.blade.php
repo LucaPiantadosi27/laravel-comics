@@ -11,6 +11,11 @@
 </head>
 
 <body>
+
+    @include('Layouts/header')
+    @include('Layouts/jumbo')
+
+
     <div class="container">
         @yield('content')
     </div>

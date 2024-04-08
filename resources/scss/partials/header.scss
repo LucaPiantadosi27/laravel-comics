@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12rem;
+    background-color: white;
+    & .logo {
+        width: 25%;
+    }
+    & ul {
+        gap: 20px;
+        list-style: none;
+        display: flex;
+        & li {
+            margin-right: 20px;
+            & a {
+                text-decoration: none;
+                font-size: smaller;
+                font-weight: bold;
+                color: rgb(107, 109, 114);
+            }
+            & a.underlined{
+                color:  rgb(2, 130, 249);
+                text-decoration: none;
+                border-bottom: 5px solid  rgb(2, 130, 249);
+                padding-bottom: 50px;
+            }
+        }
+    }
+}
