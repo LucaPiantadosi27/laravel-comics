@@ -14,6 +14,12 @@
 
     @include('Layouts/header')
     @include('Layouts/jumbo')
+    @include('Layouts/main')
+    @include('Layouts/mainBottom')
+    @include('Layouts/footer')
+
+    
+
 
 
     <div class="container">
