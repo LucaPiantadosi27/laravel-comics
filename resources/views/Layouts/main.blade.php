@@ -7,20 +7,22 @@
         <div class="container">
             <h3>    
                 <button class="btn-primary">Current Series</button>  
-            </h3>    
-        
+            </h3>   
+            
             <div id="comics-list" class="row row-cols-6">
-                 @foreach ($comic as $comic_item)
-                    <div class="col">
-                        <div class="card">
-                            <img src= {{$comic_item['thumb']}}  class="card-img-top" alt="  {{$comic_item['title']}} ">
-                            <div class="card">
-                                <h5 class="card-title"> {{$comic_item['title']}} </h5>
-                            </div>
+                @foreach ($comic as $comic_item)
+                <div class="col">
+                    <div class="comic">
+                        <img src="{{$comic_item['thumb']}}" class="comic-img" alt="{{$comic_item['title']}}">
+                        <div class="comic-title">
+                            <h5>{{$comic_item['title']}}</h5>
                         </div>
                     </div>
-                 @endforeach
+                </div>
+                @endforeach
             </div>
+        
+          
 
 
             

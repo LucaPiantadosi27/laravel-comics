@@ -1,16 +1,15 @@
 .footer-top {
     padding-top: 2rem;
-    height: 380px;
+    height: 450px;
     
     background-image: url('/resources/img/footer-bg.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     
-
     overflow: hidden;
     & h3 {
-        color: white;
+        color: rgb(255, 255, 255) !important;
         margin-bottom: 2rem;
     }
     & ul.list-typeOne {

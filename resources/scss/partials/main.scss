@@ -6,6 +6,14 @@ body{
 
 
 #comics-list {
+    .comic {
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 300px; 
+            object-fit: cover;
+        }
+
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -19,20 +27,24 @@ body{
                 width: calc(16.66667% - 30px); 
             }
 
-            .card {
-                height: 100%; 
+            .comic {
+                background-color: rgb(28, 28, 28);
+                
+                height: 80%; 
                 img {
                     width: 100%; 
                     height: auto; 
                     object-fit: cover; 
                 }
 
+               
+
             }
         }
     }
 }
 
-    
+}   
 
 .btn-container {
     text-align: center;
